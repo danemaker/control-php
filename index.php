@@ -4,7 +4,7 @@ require_once 'vendor/autoload.php';
 
 $app = new \Slim\Slim();
 
-$db = new mysqli('localhost', 'angular', 'angular', 'controlangular');
+$db = new mysqli('localhost', 'root', 'control', 'control');
 
 // Configuración de cabeceras
 header('Access-Control-Allow-Origin: *');
